@@ -22,5 +22,4 @@ left join (
 left join provider_paymentsettings pps on pps.provider_id = pd.id
 where coalesce(e.email_address, pd.email) in (
     --list of emails here
-    'rlillar@yahoo.com' -- singuped up for beta 
 )
